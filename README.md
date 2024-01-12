@@ -1,0 +1,1 @@
+It is a normal URL-shrinker project.Where it takes long strings and shrinks them to short.when we click on short link it will fetch long original link from mongoDB database and gives us the original string.
