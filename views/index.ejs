@@ -27,8 +27,8 @@
       <tbody>
         <% shortLinks.forEach(shortLink => { %>
           <tr>
-            <td><a href="<%= shortLink.full %>"><%= shortLink.full %></a></td>
-            <td><a href="<%= shortLink.short %>"><%= shortLink.short %></a></td>
+            <td><a href="<%= shortLink.full %>" target="_blank"><%= shortLink.full %></a></td>
+            <td><a href="<%= shortLink.short %>" target="_blank"><%= shortLink.short %></a></td>
             <td><%= shortLink.clicks %></td>
           </tr>
         <% }) %>
